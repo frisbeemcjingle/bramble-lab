@@ -37,8 +37,8 @@ spec:
 
         hosts:
           - grafana.wvhomelab.xyz
-
         tls:
-        - secretName: grafana-tls-secret
-          hosts:
-            - grafana.wvhomelab.xyz
+          - secretName: grafana-tls-secret
+            hosts:
+              - grafana.wvhomelab.xyz
+
