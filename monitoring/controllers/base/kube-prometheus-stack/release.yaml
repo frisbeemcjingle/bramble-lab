@@ -33,12 +33,11 @@ spec:
       adminPassword: frisbee
       ingress:
         enabled: true
-        ingressClassName: traefik
-
-        hosts:
+         ingressClassName: traefik
+         hosts:
           - grafana.wvhomelab.xyz
-        tls:
-          - secretName: grafana-tls-secret
-            hosts:
-              - grafana.wvhomelab.xyz
+         tls:
+           - secretName: grafana-tls-secret
+             hosts:
+               - grafana.wvhomelab.xyz
 
